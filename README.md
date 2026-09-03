@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![MCP Standard](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io/)
+[![Smithery](https://smithery.ai/badge/@Treasurezqq-Sketch/geospatial-mcp)](https://smithery.ai/server/@Treasurezqq-Sketch/geospatial-mcp)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://pytest.org)
 
 A zero-dependency (no GDAL/C++ build hell) Model Context Protocol (MCP) server that equips AI Agents (Claude, Cursor, Antigravity) with deterministic spatial analysis, GeoJSON auto-repair, and accurate projected metric calculations.
