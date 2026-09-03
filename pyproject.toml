@@ -1,0 +1,69 @@
+[project]
+name = "geospatial-mcp"
+version = "0.1.0"
+description = "A lightweight spatial data topology verification and analysis service for AI agents based on FastMCP"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "GeoSpatial MCP Team", email = "dev@geospatial-mcp.org" }
+]
+keywords = [
+    "mcp",
+    "fastmcp",
+    "gis",
+    "geospatial",
+    "topology",
+    "shapely",
+    "pyproj",
+    "geojson",
+    "ai-agent",
+    "spatial-analysis",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "fastmcp>=2.0.0",
+    "shapely>=2.0.0",
+    "pyproj>=3.6.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "matplotlib>=3.8.0",
+    "pillow>=10.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/geospatial-mcp/geospatial-mcp"
+Documentation = "https://github.com/geospatial-mcp/geospatial-mcp#readme"
+Repository = "https://github.com/geospatial-mcp/geospatial-mcp.git"
+Issues = "https://github.com/geospatial-mcp/geospatial-mcp/issues"
+
+[project.scripts]
+geospatial-mcp = "geospatial_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/geospatial_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["src"]
