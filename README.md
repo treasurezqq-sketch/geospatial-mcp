@@ -47,7 +47,7 @@ No local repository clone or manual environment setup required:
 
 1. **Clone and create virtual environment**:
    ```bash
-   git clone https://github.com/your-org/geospatial-mcp.git
+   git clone https://github.com/Treasurezqq-Sketch/geospatial-mcp.git
    cd geospatial-mcp
 
    python -m venv .venv

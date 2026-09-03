@@ -48,10 +48,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/geospatial-mcp/geospatial-mcp"
-Documentation = "https://github.com/geospatial-mcp/geospatial-mcp#readme"
-Repository = "https://github.com/geospatial-mcp/geospatial-mcp.git"
-Issues = "https://github.com/geospatial-mcp/geospatial-mcp/issues"
+Homepage = "https://github.com/Treasurezqq-Sketch/geospatial-mcp"
+Documentation = "https://github.com/Treasurezqq-Sketch/geospatial-mcp#readme"
+Repository = "https://github.com/Treasurezqq-Sketch/geospatial-mcp.git"
+Issues = "https://github.com/Treasurezqq-Sketch/geospatial-mcp/issues"
 
 [project.scripts]
 geospatial-mcp = "geospatial_mcp.server:main"
