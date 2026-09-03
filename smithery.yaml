@@ -1,9 +1,0 @@
-# Smithery configuration file
-# Learn more at https://smithery.ai
-
-startCommand:
-  type: stdio
-  config:
-    command: uvx
-    args:
-      - geospatial-mcp
